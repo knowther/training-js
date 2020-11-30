@@ -6,11 +6,14 @@ function change(){
 
 function createbutton(){
 
-var newbutton = document.createElement("button");
+let newbutton = document.createElement("button");
 var pai_element = document.body;
 var textbt = document.createTextNode("Exibir uma foto minha.")
 newbutton.appendChild(textbt);
 pai_element.appendChild(newbutton);
+newbutton.onclick = function photo() {
+    document.getElementById("imagem").src = "./image/johnny_img.jpg"
+}
 
-
+    
 }
