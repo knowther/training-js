@@ -1,22 +1,37 @@
 html{
     --background: white;
     --font: black;
+    --bg-div : bisque;
 }
 body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    margin: 10em;
+    justify-content: center;
+    margin: 2em;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-div);
+    border-radius: 15px;
+    padding: 2em;
+    border: dashed #505050 2px;
 }
 h1{
-    color: gray;
+    color: #505050;
 }
 p{
     font-weight: bold;
+    text-align: center;
 }
 img{
     width: 200px;
     border-radius: 50%;
-    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5em;
 }
