@@ -1,9 +1,22 @@
-*{
-    font: bolder 50px;
+html{
+    --background: white;
+    --font: black;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10em;
 }
 h1{
     color: gray;
 }
 p{
     font-weight: bold;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    padding: 100px;
 }
