@@ -5,6 +5,18 @@
 
 
 
+## Alterações previstas :nerd_face::
+
+- Pretendo ao exibir a foto, trocar o botão para esconder foto.
+- Substituir o deixar em preto e branco para deixar colorido.
+- Espaçamento entre os botões criados pelo JS.
+
+
+
+
+
+##### Pessoal, esse é um projeto iniciante, quem puder me ajudar estarei grato!
+
 
 
 
